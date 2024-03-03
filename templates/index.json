@@ -210,7 +210,7 @@
       "settings": {
         "block_height": 15,
         "block_height_mobile": 19,
-        "animated_width": 60
+        "animated_width": 25
       }
     }
   },

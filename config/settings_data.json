@@ -107,9 +107,11 @@
     "sold_out_badge_color_scheme": "background-1",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "https:\/\/www.facebook.com\/gallantdaleuniformespuebla\/",
+    "social_phone_link": "tel:+522224372807",
+    "social_facebook_link": "",
+    "social_whatsapp_link": "https:\/\/api.whatsapp.com\/send?phone=522224372807&text=Hi,%20me%20gustar%C3%ADa%20saber%20m%C3%A1s",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/gallantdale\/",
+    "social_instagram_link": "",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -171,13 +173,15 @@
         "blocks": {
           "footer-0": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
-              "heading": "EMPRESA",
+              "heading": "",
               "menu": ""
             }
           },
           "footer-1": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "POLÍTICAS",
               "menu": ""
@@ -186,8 +190,8 @@
           "d91c127c-ac40-4ecf-9027-ed576fc18167": {
             "type": "text",
             "settings": {
-              "heading": "CATÁLOGO",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "GET TO KNOW ME MORE",
+              "subtext": "<p><a href=\"https:\/\/www.linkedin.com\/in\/german-nochebuena-shopify-developer-manager\/\" target=\"_blank\" title=\"https:\/\/www.linkedin.com\/in\/german-nochebuena-shopify-developer-manager\/\">LINKEDIN PROFILE<\/a><\/p>"
             }
           }
         },
@@ -197,7 +201,7 @@
           "d91c127c-ac40-4ecf-9027-ed576fc18167"
         ],
         "settings": {
-          "footer_top": "#TODOSSOMOSGALLANTDALE",
+          "footer_top": "SHOPIFY DEVELOPER",
           "color_scheme": "inverse",
           "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
@@ -208,8 +212,8 @@
           "margin_top": 0,
           "padding_top": 60,
           "padding_bottom": 60,
-          "footer-bot-a": "OPERADORA GALLANTDALE S.A. de C.V.",
-          "footer-bot-b": "PONIENTE 116 NO. 718 BODEGA 1, COL. INDUSTRIAL VALLEJO C.P. 02300 AZCAPOTZALCO, CDMX"
+          "footer-bot-a": "JUST A SAMPLE DEV STORE",
+          "footer-bot-b": "LOCATED IN MÉXICO"
         }
       },
       "main-password-header": {
