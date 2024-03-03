@@ -11,7 +11,7 @@
             "heading_size": "h1",
             "subheading": "Build with any CSS framework, Vanilla JS (ES219+) or other JS libraries",
             "button_label": "Button",
-            "link": "shopify:\/\/collections\/frontpage",
+            "link": "shopify:\/\/collections",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
