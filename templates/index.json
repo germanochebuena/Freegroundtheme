@@ -6,11 +6,11 @@
         "slide-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Universo_Aqua.jpg",
-            "heading": "",
+            "image": "shopify:\/\/shop_images\/woman-focuses-on-a-computer-for-work.jpg",
+            "heading": "Custom Liquid sections",
             "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
+            "subheading": "Build with any CSS framework, Vanilla JS (ES219+) or other JS libraries",
+            "button_label": "Button",
             "link": "shopify:\/\/collections\/frontpage",
             "button_style_secondary": false,
             "box_align": "middle-left",
@@ -24,16 +24,16 @@
         "db7b426d-ca81-4032-8ddf-92917a3c08b7": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos_c02de0ff-d011-45e2-b8fb-db55d3f9107e.jpg",
-            "heading": "",
+            "image": "shopify:\/\/shop_images\/hands-typing.jpg",
+            "heading": "Flexible integrations focused on UX",
             "heading_size": "h1",
-            "subheading": "",
+            "subheading": "Specialized design implementations made with Greensock and other JS libraries",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "top-right",
             "show_text_box": false,
-            "text_alignment": "center",
+            "text_alignment": "right",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
@@ -48,7 +48,7 @@
         "layout": "full_bleed",
         "slide_height": "fit",
         "image_position": "cover_top",
-        "hero-menu": "hero-menu",
+        "hero-menu": "",
         "nav_color": "#ffffff",
         "slider_visual": "counter",
         "auto_rotate": true,
@@ -63,7 +63,7 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CapturaGallant-min.jpg",
+            "image": "shopify:\/\/shop_images\/headshot-white.png",
             "title": "",
             "title_size": "regular",
             "text": "",
@@ -77,10 +77,10 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "El Multiverse Colors",
-            "title_size": "large",
-            "text": "<p>Se compone por 7 universos<\/p>",
-            "custom_color": "#3b4a9a",
+            "title": "Hi, I'm a Web Developer",
+            "title_size": "regular",
+            "text": "<ul><li>Expertise in Shopify and WordPress theme development.<\/li><li>Proficient in version control with GitHub, ensuring effective team collaboration. <\/li><li>Skilled in using project management tools like Asana, Jira, and Slack. <\/li><li>Committed to ADA (Accesibility) compliance.<\/li><\/ul>",
+            "custom_color": "#3f3f3f",
             "text_size": "large",
             "content_align": "left",
             "link_label": "",
@@ -107,7 +107,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 32,
-        "padding_bottom": 92
+        "padding_bottom": 52
       }
     },
     "newsletter": {
@@ -151,49 +151,49 @@
         "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-0": {
           "type": "block",
           "settings": {
-            "block_image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos_c02de0ff-d011-45e2-b8fb-db55d3f9107e.jpg",
+            "block_image": "shopify:\/\/shop_images\/download.png",
             "block_link": ""
           }
         },
         "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-1": {
           "type": "block",
           "settings": {
-            "block_image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos_c02de0ff-d011-45e2-b8fb-db55d3f9107e.jpg",
+            "block_image": "shopify:\/\/shop_images\/HTML5_logo_and_wordmark_svg.png",
             "block_link": ""
           }
         },
         "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-2": {
           "type": "block",
           "settings": {
-            "block_image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos_c02de0ff-d011-45e2-b8fb-db55d3f9107e.jpg",
+            "block_image": "shopify:\/\/shop_images\/01-03-21-8-useful-javascript-es2019-features-to-know-about-blog.jpg",
             "block_link": ""
           }
         },
         "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-3": {
           "type": "block",
           "settings": {
-            "block_image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos_c02de0ff-d011-45e2-b8fb-db55d3f9107e.jpg",
+            "block_image": "shopify:\/\/shop_images\/2293e6_da97e8ea3719441d97b3b47e4b2d7534_mv2.png",
             "block_link": ""
           }
         },
         "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-4": {
           "type": "block",
           "settings": {
-            "block_image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos_c02de0ff-d011-45e2-b8fb-db55d3f9107e.jpg",
+            "block_image": "shopify:\/\/shop_images\/1_adcnxab1qc_5kf8juxdeya.png",
             "block_link": ""
           }
         },
         "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-5": {
           "type": "block",
           "settings": {
-            "block_image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos_c02de0ff-d011-45e2-b8fb-db55d3f9107e.jpg",
+            "block_image": "shopify:\/\/shop_images\/252USFwhUaVeFm664hWzFA.jpg",
             "block_link": ""
           }
         },
         "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-6": {
           "type": "block",
           "settings": {
-            "block_image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos_c02de0ff-d011-45e2-b8fb-db55d3f9107e.jpg",
+            "block_image": "shopify:\/\/shop_images\/7-pasos-para-instalar-tailwind-css-en-laravel-10.jpg",
             "block_link": ""
           }
         }
@@ -208,7 +208,7 @@
         "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-6"
       ],
       "settings": {
-        "block_height": 49,
+        "block_height": 15,
         "block_height_mobile": 19,
         "animated_width": 60
       }
