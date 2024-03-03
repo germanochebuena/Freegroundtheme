@@ -78,7 +78,7 @@
           "type": "column",
           "settings": {
             "title": "Hi, I'm a Web Developer",
-            "title_size": "regular",
+            "title_size": "large",
             "text": "<ul><li>Expertise in Shopify and WordPress theme development.<\/li><li>Proficient in version control with GitHub, ensuring effective team collaboration. <\/li><li>Skilled in using project management tools like Asana, Jira, and Slack. <\/li><li>Committed to ADA (Accesibility) compliance.<\/li><\/ul>",
             "custom_color": "#3f3f3f",
             "text_size": "large",
