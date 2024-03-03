@@ -1,0 +1,92 @@
+<style>
+  .title-border{
+    text-transform:uppercase;
+    color:#ffffff;
+    text-shadow: 0px 0px 3px {{ section.settings.border_color }};
+    font-size:{{ section.settings.title_size }};
+    width:100%;
+    text-align:{{ section.settings.title_align }};
+    font-weight:900;
+    padding-top:{{ section.settings.pad_top }}%;
+    padding-bottom:{{ section.settings.pad_bottom }}%;
+    padding-left:20px;
+    padding-right:20px;
+    margin:0;
+  }
+</style>
+<div class="flex-wrap">
+  <h2 class="title-border">{{ section.settings.title_border }}</h2>
+</div>
+{% schema %}
+{
+  "name": "Titulo con borde de color",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title_border",
+      "default": "title border",
+      "label": "Titulo con borde de color"
+    },
+    {
+      "type": "text",
+      "id": "title_size",
+      "default": "30px",
+      "label": "Tamaño de título",
+      "info": "Use unidades y valores como: 24px, 2rem, 3em"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Color del borde",
+      "default": "#000000"
+    },
+    {
+  "type": "select",
+  "id": "title_align",
+  "label": "Title alignment",
+  "options": [
+    {
+      "value": "left",
+      "label": "left"
+    },
+    {
+      "value": "center",
+      "label": "center"
+    },
+    {
+      "value": "right",
+      "label": "right"
+    }
+  ],
+  "default": "center"
+},
+{
+  "type": "range",
+  "id": "pad_top",
+  "min": 0,
+  "max": 25,
+  "step": 1,
+  "unit": "%",
+  "label": "Padding top",
+  "default": 5
+},
+{
+  "type": "range",
+  "id": "pad_bottom",
+  "min": 0,
+  "max": 25,
+  "step": 1,
+  "unit": "%",
+  "label": "Padding bottom",
+  "default": 5
+}
+  ],
+  "presets": [
+    {
+      "name": "Title with color border"
+    }
+  ]
+}
+{% endschema %}

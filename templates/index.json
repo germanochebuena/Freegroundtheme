@@ -1,0 +1,223 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Universo_Aqua.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "db7b426d-ca81-4032-8ddf-92917a3c08b7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos_c02de0ff-d011-45e2-b8fb-db55d3f9107e.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide-0",
+        "db7b426d-ca81-4032-8ddf-92917a3c08b7"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "fit",
+        "image_position": "cover_top",
+        "hero-menu": "hero-menu",
+        "nav_color": "#ffffff",
+        "slider_visual": "counter",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "multicolumn-0": {
+      "type": "multicolumn",
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CapturaGallant-min.jpg",
+            "title": "",
+            "title_size": "regular",
+            "text": "",
+            "custom_color": "#000000",
+            "text_size": "regular",
+            "content_align": "center",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "title": "El Multiverse Colors",
+            "title_size": "large",
+            "text": "<p>Se compone por 7 universos<\/p>",
+            "custom_color": "#3b4a9a",
+            "text_size": "large",
+            "content_align": "left",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "vertical_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 92
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "e6a03a56-48b2-4b72-a675-5aca4e81875b": {
+      "type": "accordion",
+      "blocks": {
+        "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-0": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos_c02de0ff-d011-45e2-b8fb-db55d3f9107e.jpg",
+            "block_link": ""
+          }
+        },
+        "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-1": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos_c02de0ff-d011-45e2-b8fb-db55d3f9107e.jpg",
+            "block_link": ""
+          }
+        },
+        "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-2": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos_c02de0ff-d011-45e2-b8fb-db55d3f9107e.jpg",
+            "block_link": ""
+          }
+        },
+        "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-3": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos_c02de0ff-d011-45e2-b8fb-db55d3f9107e.jpg",
+            "block_link": ""
+          }
+        },
+        "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-4": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos_c02de0ff-d011-45e2-b8fb-db55d3f9107e.jpg",
+            "block_link": ""
+          }
+        },
+        "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-5": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos_c02de0ff-d011-45e2-b8fb-db55d3f9107e.jpg",
+            "block_link": ""
+          }
+        },
+        "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-6": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos_c02de0ff-d011-45e2-b8fb-db55d3f9107e.jpg",
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-0",
+        "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-1",
+        "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-2",
+        "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-3",
+        "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-4",
+        "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-5",
+        "template--17471384191272__e6a03a56-48b2-4b72-a675-5aca4e81875b-16746796686d33670d-6"
+      ],
+      "settings": {
+        "block_height": 49,
+        "block_height_mobile": 19,
+        "animated_width": 60
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "multicolumn-0",
+    "newsletter",
+    "e6a03a56-48b2-4b72-a675-5aca4e81875b"
+  ]
+}

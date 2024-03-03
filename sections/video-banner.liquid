@@ -1,0 +1,56 @@
+<style>
+  #video--{{ section.id }} {
+    width:100%; 
+    height:{{ section.settings.video_height }}; 
+    display:block; 
+    object-fit:cover; 
+    object-position:center;
+  }
+  @media screen and (max-width:768px){
+    #video--{{ section.id }} {
+      height:{{ section.settings.video_mobile_height }};
+    }
+  }
+</style>
+<div class="video-wrap" style="width:100%;">
+  <video width="320" height="240" id="video--{{ section.id }}" class="video-banner-el" preload="auto" muted autoplay loop>
+<source src="{{ section.settings.video_url.sources[1].url }}" type="video/mp4">
+  Your browser does not support mp4 files.
+</video>  
+</div>
+<script>
+    document.getElementById('video--{{ section.id }}').play();
+</script>
+{% schema %}
+{
+  "name": "Video banner",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "video_height",
+      "default": "100vh",
+      "label": "Altura del video - Escritorio",
+      "info": "Usa el valor 'auto' o valores con unidades como: 300px, 100%, 100vh"
+    },
+    {
+      "type": "text",
+      "id": "video_mobile_height",
+      "default": "290px",
+      "label": "Altura del video - Móvil",
+      "info": "Usa el valor 'auto' o valores con unidades como: 300px, 100%, 100vh"
+    },
+     {
+      "type": "video",
+      "id": "video_url",
+      "label": "Video (biblioteca de medios)"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video banner"
+    }
+  ]
+}
+{% endschema %}

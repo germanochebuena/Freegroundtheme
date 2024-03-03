@@ -1,0 +1,241 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28,
+        "disable_content": true,
+        "disable_header": true
+      }
+    },
+    "6f32bc76-efc6-45bf-b52c-8ad7196c7944": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17659809988904__6f32bc76-efc6-45bf-b52c-8ad7196c7944-1674363068fccda360-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17659809988904__6f32bc76-efc6-45bf-b52c-8ad7196c7944-1674363068fccda360-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nos encanta los nuevos retos, queremos ser parte de tu identidad, a través de nuestros uniformes que se destacan por estar en tendencia y ser altamente funcionales, queremos escuchar tu proyecto y trabajar en conjunto para lograr que tu imagen sea perfecta.<br\/>Somos los especialistas y estas son algunas de las marcas que son parte de la familia Gallantdale.<\/p>"
+          }
+        },
+        "template--17659809988904__6f32bc76-efc6-45bf-b52c-8ad7196c7944-1674363068fccda360-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17659809988904__6f32bc76-efc6-45bf-b52c-8ad7196c7944-1674363068fccda360-0",
+        "template--17659809988904__6f32bc76-efc6-45bf-b52c-8ad7196c7944-1674363068fccda360-1",
+        "template--17659809988904__6f32bc76-efc6-45bf-b52c-8ad7196c7944-1674363068fccda360-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ed93d6ab-db8b-4708-b01d-ad89aa983d49": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17659809988904__ed93d6ab-db8b-4708-b01d-ad89aa983d49-167436308785952c07-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--17659809988904__ed93d6ab-db8b-4708-b01d-ad89aa983d49-167436308785952c07-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--17659809988904__ed93d6ab-db8b-4708-b01d-ad89aa983d49-167436308785952c07-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17659809988904__ed93d6ab-db8b-4708-b01d-ad89aa983d49-167436308785952c07-0",
+        "template--17659809988904__ed93d6ab-db8b-4708-b01d-ad89aa983d49-167436308785952c07-1",
+        "template--17659809988904__ed93d6ab-db8b-4708-b01d-ad89aa983d49-167436308785952c07-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Campana_Coleccion_7_universos.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "ce66dcb8-1d8a-4b25-a1b3-c93bee96e507": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17659809988904__ce66dcb8-1d8a-4b25-a1b3-c93bee96e507-1674363068fccda360-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>ALGUNOS DE NUESTROS CLIENTES<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--17659809988904__ce66dcb8-1d8a-4b25-a1b3-c93bee96e507-1674363068fccda360-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17659809988904__ce66dcb8-1d8a-4b25-a1b3-c93bee96e507-1674363068fccda360-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17659809988904__ce66dcb8-1d8a-4b25-a1b3-c93bee96e507-1674363068fccda360-0",
+        "template--17659809988904__ce66dcb8-1d8a-4b25-a1b3-c93bee96e507-1674363068fccda360-1",
+        "template--17659809988904__ce66dcb8-1d8a-4b25-a1b3-c93bee96e507-1674363068fccda360-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "f3be7d0a-45ce-4bfa-ae3a-4cfd6e628ed5": {
+      "type": "multicolumn",
+      "blocks": {
+        "72e7f46e-066c-4d8b-b711-9be6398167c5": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "title_size": "regular",
+            "text": "",
+            "custom_color": "#000000",
+            "text_size": "regular",
+            "content_align": "center",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17659809988904__f3be7d0a-45ce-4bfa-ae3a-4cfd6e628ed5-1674363177eaaeb224-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b5afd5fdfba1377de2d7d31d493bdcfe.png",
+            "title": "",
+            "title_size": "regular",
+            "text": "",
+            "custom_color": "rgba(0,0,0,0)",
+            "text_size": "regular",
+            "content_align": "center",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17659809988904__f3be7d0a-45ce-4bfa-ae3a-4cfd6e628ed5-1674363177eaaeb224-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ac1a2808d63263e610b42eb17251c41f.png",
+            "title": "",
+            "title_size": "regular",
+            "text": "",
+            "custom_color": "#000000",
+            "text_size": "regular",
+            "content_align": "center",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f3c7b814-afdd-4002-a346-6fb235e393db": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "title_size": "regular",
+            "text": "",
+            "custom_color": "#000000",
+            "text_size": "regular",
+            "content_align": "center",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "72e7f46e-066c-4d8b-b711-9be6398167c5",
+        "template--17659809988904__f3be7d0a-45ce-4bfa-ae3a-4cfd6e628ed5-1674363177eaaeb224-0",
+        "template--17659809988904__f3be7d0a-45ce-4bfa-ae3a-4cfd6e628ed5-1674363177eaaeb224-1",
+        "f3c7b814-afdd-4002-a346-6fb235e393db"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "vertical_alignment": "top",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6f32bc76-efc6-45bf-b52c-8ad7196c7944",
+    "ed93d6ab-db8b-4708-b01d-ad89aa983d49",
+    "ce66dcb8-1d8a-4b25-a1b3-c93bee96e507",
+    "f3be7d0a-45ce-4bfa-ae3a-4cfd6e628ed5"
+  ]
+}

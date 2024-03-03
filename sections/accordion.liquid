@@ -1,0 +1,187 @@
+{% assign count = 0 %}
+{% for block in section.blocks %}
+       {% assign count = count | plus: 1 %}
+{% endfor %}
+{% assign count_minus = count | minus: 1 %}
+{%  assign dynamic_width = 100 | minus: section.settings.animated_width | divided_by: count_minus  %}
+<style>
+.block-wrap{
+    transition: all 1s cubic-bezier(.17,.91,.44,1);
+}
+div#animated-accordion- {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.block-wrap{
+      width:100%;
+  min-width:0px;
+    }
+      .item {
+    min-height: {{section.settings.block_height_mobile}}rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width:768px){
+#animated-accordion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+    .block-wrap.count--1 {
+    width: calc(100% / 1);
+}
+  .block-wrap.count--2 {
+    width: calc(100% / 2);
+}
+  .block-wrap.count--3 {
+    width: calc(100% / 3);
+}
+  .block-wrap.count--4 {
+    width: calc(100% / 4);
+}
+  .block-wrap.count--5 {
+    width: calc(100% / 5);
+}
+  .block-wrap.count--6 {
+    width: calc(100% / 6);
+}
+  .block-wrap.count--7 {
+    width: calc(100% / 7);
+}
+.block-wrap.active {
+    width: {{ section.settings.animated_width }}%;
+}
+  .block-wrap.reduced {
+   width: calc((100% - {{ section.settings.animated_width }}%) / ({{count}} - 1) ); 
+}
+.item {
+    min-height: {{section.settings.block_height}}rem;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+}
+</style>
+
+
+<div id="animated-accordion" class="accordion---{{ section.id }}">
+
+{%- for block in section.blocks -%}
+  <div class="block-wrap count--{{ count }}">
+   <a href="{{ block.settings.block_link}}" class="block-link">
+      <div class="item" style="background-image:url({{ block.settings.block_image | img_url: '800x' }});">
+
+      </div>
+    </a>
+  </div>
+{%- endfor -%}
+</div>
+<script>
+ $(document).ready(function(){
+    $(".block-wrap").hover(
+  function () {
+    $(this).addClass("active");
+    $(this).siblings(".block-wrap").addClass("reduced");
+  },
+  function () {
+    $(this).removeClass("active");
+    $(this).siblings(".block-wrap").removeClass("reduced");
+  }
+);
+ });
+</script>
+{% schema %}
+  {
+    "name": "Acordeón animado",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Ajustes generales"
+      },
+      {
+        "type": "range",
+        "id": "block_height",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "rem",
+        "label": "Altura de los bloques en Escritorio",
+        "default": 40
+      },
+      {
+        "type": "range",
+        "id": "block_height_mobile",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "rem",
+        "label": "Altura de los bloques en Móvil",
+        "default": 30
+      },
+      {
+        "type": "range",
+        "id": "animated_width",
+        "min": 0,
+        "max": 90,
+        "step": 1,
+        "unit": "%",
+        "label": "Anchura del bloque animado",
+        "default": 60,
+        "info":"Anchura al pasar el mouse encima, es necesario guardar cambios y recargar la página para refrescar los parámetros de la animación"
+      }
+    ],
+    "max_blocks": 7,
+      "blocks": [
+     {
+       "name": "Bloque",
+       "type": "block",
+       "settings": [
+         {
+        "type": "image_picker",
+        "id": "block_image",
+        "label": "Imagen"
+      },
+         {
+        "type": "url",
+        "id": "block_link",
+        "label": "Enlace del bloque"
+      }
+       ]
+     }
+  ],
+    "presets": [
+    {
+      "name": "Acordeón animado",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

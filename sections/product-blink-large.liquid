@@ -1,0 +1,205 @@
+<style>
+  .product_blink_section h3, .product_blink_section h4{
+    text-transform:uppercase;
+    letter-spacing:3px;
+  }
+  .row{
+    display:flex;
+    flex-direction:row;
+  }
+  .column{
+    display:flex;
+    flex-direction:column;
+    margin: 0 20px;
+  }
+  .l_col{
+    width:60%;
+  }
+.r_col {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 600px;
+}
+  .small-p.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+  .small-p h4{
+    margin: 0 0 10px 0;
+  }
+.product-blink-wrap {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    margin: 0 auto;
+}
+  .product-blink-wrap img{
+    width:100%;
+    height:auto;
+    max-width:100%;
+    height:600px;
+    display:block;
+    transition:all 0.05s linear;
+    object-fit:cover;
+    object-position:top;
+  }
+.small-img {
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: auto;
+    max-width: 280px;
+    max-height: 290px;
+}
+  .product-blink-wrap img.first{
+    z-index:2;
+    animation-name: first;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+  }
+  .product-blink-wrap img.second{
+    z-index:1;
+    position:absolute;
+    top:0;
+    left:0;
+    animation-name: second;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+  }
+  .product-blink-wrap img.third{
+    z-index:0;
+    position:absolute;
+    top:0;
+    left:0;
+    animation-name: third;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+  }
+  @keyframes first {
+  0% { opacity: 1; }
+  33% { opacity: 0; }
+  66% { opacity: 0; }
+  100% { opacity: 1; }
+}
+    @keyframes second {
+  0% { opacity: 0; }
+  33% { opacity: 1; }
+  66% { opacity: 0; }
+  100% { opacity: 0; }
+}
+    @keyframes third {
+  0% { opacity: 0; }
+  33% { opacity: 0; }
+  66% { opacity: 1; }
+  100% { opacity: 0; }
+}
+  @media screen and (max-width:1120px){
+.row {
+    flex-wrap: wrap;
+}
+    .r_col > div:nth-child(1) {
+    flex-direction: column;
+}
+.r_col > div:nth-child(2) {
+    flex-direction: column-reverse;
+}
+.r_col, .l_col{
+  width:100%;
+}
+.r_col {
+    max-height: 100%;
+}
+.small-p.row {
+    align-items: center;
+}
+.small-img {
+    max-width: 100%;
+    max-height: 600px;
+    margin: 20px 0px;
+}
+    .row.s_wrap {
+    padding: 20px;
+}
+  }
+</style>
+<div class="product_blink_section row s_wrap">
+<div class="l_col">
+  <div class="product-blink-wrap">
+  <a href="/products/{{ section.settings.product.handle }}">
+  <img class="first" src="{{ section.settings.product.media[0] | img_url: '800x' }}">
+  <img class="second" src="{{ section.settings.product.media[1] | img_url: '800x' }}">
+  <img class="third" src="{{ section.settings.product.media[2] | img_url: '800x' }}">
+    </a>
+  <h3>{{ section.settings.product.title }}</h3>
+  <div class="row">
+    {% render 'price' %}
+  </div>
+<p>{{ section.settings.description }}</p>    
+</div>
+</div>
+<div class="r_col">
+  <div class="small-p row">
+      <img class="small-img" src="{{ section.settings.product_second.media[0] | img_url: '400x' }}">
+      <div class="column">
+        <h4>{{ section.settings.product_second.title }}</h4>
+        <div class="row">
+          <span class="price-item price-item--regular" style="margin-right:10px;">{{ section.settings.product_second.price | money }}</span>
+          {% if section.settings.product_second.price < section.settings.product_second.compare_at_price %}
+          <s class="price-item price-item--sale price-item--last">{{ section.settings.product_second.compare_at_price | money }}</s>
+          {% endif %}
+        </div>
+      </div>
+  </div>
+  <div class="small-p row"> 
+    <div class="column">
+      <h4>{{ section.settings.product_third.title }}</h4>
+      <div class="row">
+      <span class="price-item price-item--regular" style="margin-right:10px;">{{ section.settings.product_third.price | money }}</span>
+      {% if section.settings.product_third.price < section.settings.product_third.compare_at_price %}
+      <s class="price-item price-item--sale price-item--last">{{ section.settings.product_third.compare_at_price | money }}</s>
+      {% endif %}
+      </div>
+    </div>
+      <img class="small-img" src="{{ section.settings.product_third.media[0] | img_url: '400x' }}">
+  </div>
+</div>
+</div><!--s_wrap-->
+
+{% schema %}
+{
+  "name": "Producto y columna",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Producto animado"
+    },
+    {
+      "type": "product",
+      "id": "product_second",
+      "label": "Segundo producto"
+    },
+    {
+      "type": "product",
+      "id": "product_third",
+      "label": "Tercer producto"
+    },
+    {
+  "type": "textarea",
+  "id": "description",
+  "label": "Descripción debajo del producto",
+  "default": "Comodidad y estilo. Pensado para ti, con las mejores telas, colores y texturas."
+}
+  ],
+  "presets": [
+    {
+      "name": "Producto y columna"
+    }
+  ]
+}
+{% endschema %}
